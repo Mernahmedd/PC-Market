@@ -30,6 +30,10 @@
     vertical-align: baseline !important;
 }
 
+.table tbody tr:hover .remove button {
+    background-color: #f3f3f3 !important;
+}
+
 .cart .table-responsive-lg tbody tr .name {
     color: #046963;
 }
@@ -44,10 +48,12 @@
     outline: none;
 }
 
-.cart .table-responsive-lg tbody tr .remove a {
+.cart .table-responsive-lg tbody tr .remove button {
     cursor: pointer;
     color: #8e8e90 !important;
     font-size: 20px;
+    border: none;
+    background-color: #fff;
 }
 
 .cart .buttons a {
@@ -63,6 +69,12 @@
 .cart .buttons .info .left {
     right:0;
     margin-right:auto !important;
+}
+
+.cart .buttons .info .left button {
+    border: none;
+    background-color: #fff;
+    right: 0;
 }
 
 .cart .buttons .info .right a span {

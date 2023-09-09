@@ -39,12 +39,6 @@ $(window).on('load', function() {
 
     // ScrollTop 
 
-    $('.scroll').click(function(){
-      $('body, html').animate({
-          scrollTop: 0
-      }, 1200);
-    });
-
     $(window).scroll(function(){
 
         if ( $(window).scrollTop() > 100 ) {
@@ -187,12 +181,6 @@ $(window).on('load', function() {
 
     // ScrollTop 
 
-    $('.scroll').click(function(){
-        $('body, html').animate({
-            scrollTop: 0
-        }, 1200);
-    });
-
     $(window).scroll(function(){
 
         if ( $(window).scrollTop() > 100 ) {
@@ -332,7 +320,7 @@ $(window).on('load', function() {
     $(".js-range-slider").ionRangeSlider({
         type: "double",
         min: 0,
-        max: 5000,
+        max: 30000,
         from: 100,
         to: 1000,
         grid: true

@@ -243,4 +243,10 @@
     }
 }
 
+@media (max-width: 992px) {
+    .shop .right .category-menu {
+        display: none;
+    }
+}
+
 /* End Right */
